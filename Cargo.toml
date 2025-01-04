@@ -1,0 +1,16 @@
+[package]
+name = "rustyneedle"
+version = "0.3.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bolus = "0.3.0"
+winapi = { version = "0.3", features = ["processenv", "winuser", "shellapi"] }
+[profile.dev]
+opt-level = 0
+
+[profile.release]
+opt-level = 3
+strip = true
