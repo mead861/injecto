@@ -1,6 +1,3 @@
-Sure, here's an improved version of your description with corrected errors and better clarity:
-Shellcode Injector (Written in Rust)
-
 This program is a shellcode injector written in Rust. It downloads binary shellcode from an HTTP(S) server and injects it into a chosen process. The target process can be modified by editing the main.rs file.
 
 The shellcode is encoded in Base64 using the encode.py script to ensure it can be downloaded and executed correctly. By default, the target process is explorer.exe, but you can change this by modifying the main.rs file.
