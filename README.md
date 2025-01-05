@@ -19,3 +19,6 @@ Steps to Use the Injector:
 
 A lot of this code was written by Michael Taggart (https://github.com/mttaggart) in the project: https://github.com/mttaggart/rustyneedle
 I created this Repo for my own storage of the code.
+Encode shellcode: python3 ./encode.py ~/c2framework.bin 3 shellcode.txt
+Compile exe: cargo build --target x86_64-pc-windows-gnu --release
+
